@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="assets/logo1.png">
+        <meta charset="utf-8" />
+        <title>Sarkari Path : Latest Online Form, Sarkari Exam, Rojgar Result 2023 - Sarkari Path</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.3/angular.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/font.css" />
+        <script src="javascript/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    </head>
+
+    <body ng-app="myApp" ng-controller="myCtrl">
+
+        <!-- Logo -->
+        <div class="parent_logo">
+            <div class="logo_area">
+                <table>
+                    <tr>
+                        <!-- Logo Img -->
+                        <td class="logo_table1">
+                            <a href="index.html"><img class="logo_img" src="assets/logo1.png" alt="sarkari_path" width="150" height="150" />
+                        </td>
+                        <!-- Logo Img End -->
+
+                        <!-- Logo Heading -->
+                        <td class="logo_table2">
+                            <h1 class="logo_head">SARKARI PATH</h1>
+                        </td>
+                        <!-- Logo Heading End -->
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- Logo End -->
+
+        <!-- Menu -->
+        <div class="menu">
+            <ul class="menu_section">
+                <li>
+                    <a class="menu_items" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="menu_items" href="menu/latest_job.html">Latest Job</a>
+                </li>
+                <li>
+                    <a class="menu_items" href="menu/job_by_professions.html">Job by Professions</a>
+                </li>
+                <li>
+                    <a class="menu_items" href="menu/admit_card.html">Admit Card</a>
+                </li>
+                <li>
+                    <a class="menu_items" href="menu/result.html">Result</a>
+                </li>
+                <li>
+                    <a class="menu_items" href="menu/syllabus.html">Syllabus</a>
+                </li>
+                <li>
+                    <a class="menu_items" href="menu/admission.html">Admission</a>
+                </li>
+                <li>
+                    <a class="menu_items" href="menu/news.html">News</a>
+                </li>
+                <!-- Search icon -->
+                <li class="search_menu">
+                    <input class="search" type="text" placeholder="Search" disabled />
+                </li>
+                <!-- Search icon End -->
+            </ul>
+        </div>
+        <!-- Menu End -->
+
+        <!-- New Updates Heading -->
+        <div class="new_update">
+            <h1>New Updates</h1>
+        </div>
+        <!-- New Updates Heading End -->
+
+        <!-- New Update 1st Row -->
+        <div class="detail">
+            <table>
+                <tr>
+                    <td class="imp_iteams">
+                        <a href="{{update1_link}}">{{update1}}</a>
+                    </td>
+                    <td class="imp_iteams">
+                        <a href="{{update2_link}}">{{update2}}</a>
+                    </td>
+                    <td class="imp_iteams">
+                        <a href="{{update3_link}}">{{update3}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- New Update 1st Row End -->
+
+        <!-- New Update 2nd Row -->
+        <div class="detail1">
+            <table>
+                <tr>
+                    <td class="imp_iteams1">
+                        <a href="{{update4_link}}">{{update4}}</a>
+                    </td>
+                    <td class="imp_iteams1">
+                        <a href="{{update5_link}}">{{update5}}</a>
+                    </td>
+                    <td class="imp_iteams1">
+                        <a href="{{update6_link}}">{{update6}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- New Update 2nd Row End -->
+
+        <!-- main section heading -->
+        <div class="new-update">
+            <h1>Sarkari Path Provides Latest Sarkari Results, Sarkari Exam, Sarkari Job and Rojgar Result.</h1>
+        </div>
+        <!-- main section heading end-->
+
+        <!-- main section heading 1 -->
+        <div class="main_section_heading">
+            <table>
+                <tr>
+                    <td class="main_section_heading1">Result</td>
+                    <td class="main_section_heading1">Admit Card</td>
+                    <td class="main_section_heading1">Latest Job</td>
+                </tr>
+            </table>
+        </div>
+        <!-- main section heading 1 end -->
+
+        <!-- main section iteams -->
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result1_link}}">{{result1}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit1_link}}">{{admit1}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job1_link}}">{{job1}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result2_link}}">{{result2}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit2_link}}">{{admit2}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job2_link}}">{{job2}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result3_link}}">{{result3}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit3_link}}">{{admit3}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job3_link}}">{{job3}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result4_link}}">{{result4}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit4_link}}">{{admit4}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job4_link}}">{{job4}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result5_link}}">{{result5}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit5_link}}">{{admit5}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job5_link}}">{{job5}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result6_link}}">{{result6}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit6_link}}">{{admit6}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job6_link}}">{{job6}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result7_link}}">{{result7}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit7_link}}">{{admit7}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job7_link}}">{{job7}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result8_link}}">{{result8}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit8_link}}">{{admit8}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job8_link}}">{{job8}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result9_link}}">{{result9}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit9_link}}">{{admit9}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job9_link}}">{{job9}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{result10_link}}">{{result10}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{admit10_link}}">{{admit10}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{job10_link}}">{{job10}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- main section iteams end -->
+
+        <!-- Last section -->
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_last">
+                        <a href="menu/result.html">View More</a>
+                    </td>
+                    <td class="main_section_last">
+                        <a href="menu/admit_card.html">View More</a>
+                    </td>
+                    <td class="main_section_last">
+                        <a href="menu/latest_job.html">View More</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Last section end -->
+
+        <!-- main section 2-->
+        <div class="main_section_heading">
+            <table>
+                <tr>
+                    <td class="main_section_heading1">Answer Key</td>
+                    <td class="main_section_heading1">Syllabus</td>
+                    <td class="main_section_heading1">Admission</td>
+                </tr>
+            </table>
+        </div>
+        <!-- main section heading 1 end -->
+
+        <!-- main section iteams -->
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{answer1_link}}">{{answer1}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{syllabus1_link}}">{{syllabus1}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{adm1_link}}">{{adm1}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{answer2_link}}">{{answer2}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{syllabus2_link}}">{{syllabus2}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{adm2_link}}">{{adm2}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{answer3_link}}">{{answer3}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{syllabus3_link}}">{{syllabus3}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{adm3_link}}">{{adm3}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{answer4_link}}">{{answer4}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{syllabus4_link}}">{{syllabus4}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{adm4_link}}">{{adm4}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{answer5_link}}">{{answer5}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{syllabus5_link}}">{{syllabus5}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{adm5_link}}">{{adm5}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{answer6_link}}">{{answer6}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{syllabus6_link}}">{{syllabus6}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{adm6_link}}">{{adm6}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_iteams">
+                        <a href="{{answer7_link}}">{{answer7}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{syllabus7_link}}">{{syllabus7}}</a>
+                    </td>
+                    <td class="main_section_iteams">
+                        <a href="{{adm7_link}}">{{adm7}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Last section -->
+        <div class="main_section_table">
+            <table>
+                <tr>
+                    <td class="main_section_last">
+                        <a href="menu/answer_key.html">View More</a>
+                    </td>
+                    <td class="main_section_last">
+                        <a href="menu/syllabus.html">View More</a>
+                    </td>
+                    <td class="main_section_last">
+                        <a href="menu/admission.html">View More</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!--2 colum -->
+        <div class="main_section_heading_2col">
+            <table>
+                <tr>
+                    <td class="main_section_heading1_2col">Up Coming Exam</td>
+                    <td class="main_section_heading1_2col">Sarkari Yojana</td>
+                </tr>
+            </table>
+        </div>
+        <!-- main section heading 1 end -->
+
+        <!-- main section iteams -->
+        <div class="main_section_table_2col">
+            <table>
+                <tr>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{comingExam1_link}}">{{comingExam1}}</a>
+                    </td>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{importantlink1_link}}">{{importantlink1}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table_2col">
+            <table>
+                <tr>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{comingExam2_link}}">{{comingExam2}}</a>
+                    </td>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{importantlink2_link}}">{{importantlink2}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table_2col">
+            <table>
+                <tr>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{comingExam3_link}}">{{comingExam3}}</a>
+                    </td>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{importantlink3_link}}">{{importantlink3}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table_2col">
+            <table>
+                <tr>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{comingExam4_link}}">{{comingExam4}}</a>
+                    </td>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{importantlink4_link}}">{{importantlink4}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table_2col">
+            <table>
+                <tr>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{comingExam5_link}}">{{comingExam5}}</a>
+                    </td>
+                    <td class="main_section_iteams_2col">
+                        <a href="{{importantlink5_link}}">{{importantlink5}}</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main_section_table_2col">
+            <table>
+                <tr>
+                    <td class="main_section_last_2col">
+                        <a href="menu/upcoming_exam.html">View More</a>
+                    </td>
+                    <td class="main_section_last_2col">
+                        <a href="menu/sarkari_yojana.html">View More</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Last section end -->
+        <!-- Footer -->
+        <footer class="footer_div">
+            <div class="footer">
+                <div class="footer_part">
+                    <a class="social_link" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="social_link" href="#"><i class="fa fa-instagram"></i></a>
+                    <a class="social_link" href="#"><i class="fa fa-youtube"></i></a>
+                    <a class="social_link" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="social_link" href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="footer_part">
+                    <ul>
+                        <li>
+                            <a class="footer_item" href="footer/about_us.html">About Us</a>
+                        </li>
+                        <li>
+                            <a class="footer_item" href="footer/contact_us.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a class="footer_item" href="footer/disclaimer.html">Disclaimer</a>
+                        </li>
+                        <li>
+                            <a class="footer_item" href="footer/privacy_policy.html">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a class="footer_item" href="footer/terms_conditions.html">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright © 2023 Inferno - All rights reserved || Designed By: @suman_kr_singh7
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
+    </body>
+</html>
